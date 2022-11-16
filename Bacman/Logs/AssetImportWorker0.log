@@ -15,11 +15,11 @@ C:/Users/Ivar Wennberg/Documents/GitHub/Bacman/Bacman
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60698
+57589
 Successfully changed project path to: C:/Users/Ivar Wennberg/Documents/GitHub/Bacman/Bacman
 C:/Users/Ivar Wennberg/Documents/GitHub/Bacman/Bacman
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 605.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 140.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,65 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006531 seconds.
+Registered in 0.002398 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 359.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 147.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.989 seconds
+- Completed reload, in  1.979 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014274 seconds.
+Registered in 0.003711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 290.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 133.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.705 seconds
+- Completed reload, in  1.318 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.9 MB.
+System memory in use before: 127.8 MB.
 System memory in use after: 127.9 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3823.
-Total: 11.570400 ms (FindLiveObjects: 1.000800 ms CreateObjectMapping: 0.770600 ms MarkObjects: 9.215600 ms  DeleteObjects: 0.578100 ms)
+Total: 3.643900 ms (FindLiveObjects: 0.779200 ms CreateObjectMapping: 0.366300 ms MarkObjects: 2.378100 ms  DeleteObjects: 0.119100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Tiles/Up_Right_Turn_Tile.png
-  artifactKey: Guid(7126e48f610563245921868caf419dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Up_Right_Turn_Tile.png using Guid(7126e48f610563245921868caf419dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89235bbdf8a6efcd3bf3abc9724cc273') in 0.630802 seconds 
+  path: Assets/Tiles/Tile_Right_Close.png
+  artifactKey: Guid(78fe77f7673c77e48a29f622ab0ef7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_Right_Close.png using Guid(78fe77f7673c77e48a29f622ab0ef7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34c633a5154b99e6f72ce9e24f706c') in 0.155876 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.285139 seconds.
-  path: Assets/Tiles/Tile_Up_Right_Turn.png
-  artifactKey: Guid(839ba7096e3913a48b24505fc6283b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile_Up_Right_Turn.png using Guid(839ba7096e3913a48b24505fc6283b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b0f2f22a533bc4dfb7e4e59b6e5489') in 0.044168 seconds 
+  Time since last request: 3776.116915 seconds.
+  path: Assets/Tiles/Tile_Down_Close.png
+  artifactKey: Guid(1e2a27243fada0b45900a9fcf2796dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_Down_Close.png using Guid(1e2a27243fada0b45900a9fcf2796dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028fd38949d6d24146149975a935721f') in 0.017230 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.471486 seconds.
-  path: Assets/Tiles/Palette/Up_Right_Turn_Tile.asset
-  artifactKey: Guid(53b682fcf5265f840927af357724aec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Palette/Up_Right_Turn_Tile.asset using Guid(53b682fcf5265f840927af357724aec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1c0be9e6c93aa63c2dd4605ede5ad0') in 0.019370 seconds 
+  Time since last request: 4.237362 seconds.
+  path: Assets/Tiles/Tile_Down_Close.png
+  artifactKey: Guid(1e2a27243fada0b45900a9fcf2796dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Tile_Down_Close.png using Guid(1e2a27243fada0b45900a9fcf2796dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927445af4b6fb18d7e2559e1e60c7ba5') in 0.013275 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.267195 seconds.
+  Time since last request: 456.388997 seconds.
+  path: Assets/Tiles/4way-1.png.png
+  artifactKey: Guid(c1c727922c6b42a40ad5093c77fdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/4way-1.png.png using Guid(c1c727922c6b42a40ad5093c77fdaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740ae59e6607cb31be966000bd6f76e2') in 0.016886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.464792 seconds.
   path: Assets/Tiles/Palette/New Palette.prefab
   artifactKey: Guid(3c756fb7975ef7143b5081853609d969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Palette/New Palette.prefab using Guid(3c756fb7975ef7143b5081853609d969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ee643d07b199cdc8c8cab1b013871e') in 0.071618 seconds 
+Start importing Assets/Tiles/Palette/New Palette.prefab using Guid(3c756fb7975ef7143b5081853609d969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c4ebdcb3eaf34c0882a4b3f0f54ac3') in 0.022668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.387205 seconds.
-  path: Assets/Tiles/Tile_Down_Left_Turn.png
-  artifactKey: Guid(ae8657abc389a544db19986e0db280f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Tile_Down_Left_Turn.png using Guid(ae8657abc389a544db19986e0db280f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208d6dceb1a1d70950ab23769c6dba2b') in 0.044918 seconds 
+  Time since last request: 169.604371 seconds.
+  path: Assets/Tiles/3way_down-1.png.png
+  artifactKey: Guid(6a37b181632a0a641986a0143e742daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/3way_down-1.png.png using Guid(6a37b181632a0a641986a0143e742daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608cffc0dfa7c790ae0353f0ccd27516') in 0.017811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.955292 seconds.
+  path: Assets/Tiles/3way_left-1.png.png
+  artifactKey: Guid(f9cd248cf4c93404f81f850299ef3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/3way_left-1.png.png using Guid(f9cd248cf4c93404f81f850299ef3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af6a78d02763aee81fdc2d44757d50f') in 0.017352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369761 seconds.
+  path: Assets/Tiles/3way_right-1.png.png
+  artifactKey: Guid(aed8fe9c176285a4ea728446f9869ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/3way_right-1.png.png using Guid(aed8fe9c176285a4ea728446f9869ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3179b0a4bebb4315002209e1fdc2f45') in 0.031408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.848082 seconds.
+  path: Assets/Tiles/3way_up-1.png.png
+  artifactKey: Guid(5130ebcdc1c8c8946b3c0c5b7c47dab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/3way_up-1.png.png using Guid(5130ebcdc1c8c8946b3c0c5b7c47dab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0c6730059f237184d285173f58f885') in 0.022690 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
