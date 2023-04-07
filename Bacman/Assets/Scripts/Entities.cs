@@ -101,7 +101,6 @@ namespace Bacman
                 {
                     this.canMoveLeft = true;
                     this.canMoveRight = false;
-
                     this.canMoveUp = false;
                     this.canMoveDown = false;
                 }
@@ -151,16 +150,45 @@ namespace Bacman
         }
     }
 
-    class Player : Entities
+    
+
+    public class Player : Entities
     {
-        
         public GameObject Pacman { get; set; }
+
+        private CircleCollider2D PacmanCollider;
+        private Rigidbody2D rb;
+        private SpriteRenderer sr;
+
+        public Sprite PacmanSprite;
+
         Player()
         {
-            this.Pacman = new GameObject("Pacman", typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(CircleCollider2D));
-            Instantiate(this.Pacman);
         }
-        
+
+        private void Start()
+        {
+            Pacman = new GameObject("Pacman", typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(CircleCollider2D));
+
+            PacmanCollider = Pacman.GetComponent<CircleCollider2D>();
+            rb = Pacman.GetComponent<Rigidbody2D>();
+            sr = Pacman.GetComponent<SpriteRenderer>();
+
+
+            Pacman.transform.position = new Vector2(9.5f, 5.5f);
+            rb.gravityScale = 0;
+            // fix this shit bish
+            sr.sprite = Resources.Load<Sprite>("PacmanSprite");
+        }
+
+        public void findCloseObjects()
+        {
+            Collider2D[] closeColliders = new Collider2D[10];
+            Physics2D.GetContacts(PacmanCollider, closeColliders);
+            Debug.Log(closeColliders[0]);
+
+        }
+
     }
 
     class Ghost : Entities
