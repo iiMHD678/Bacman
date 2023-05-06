@@ -9,7 +9,6 @@ public class Creator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = gameObject.AddComponent<Player>();
     }
 
     // Update is called once per frame

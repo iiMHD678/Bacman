@@ -339,9 +339,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/Creator.cs"
-"Assets/Scripts/Entities.cs"
+"Assets/Scripts/GhostMovement.cs"
+"Assets/Scripts/PathFinding.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Teleporter.cs"
+"Assets/Scripts/temp trash i guess/Entities.cs"
 "Assets/Scripts/Testing.cs"
 -langversion:8.0
 

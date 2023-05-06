@@ -56,11 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Entities.cs" />
+    <Compile Include="Assets\Scripts\temp trash i guess\Entities.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />
+    <Compile Include="Assets\Scripts\GhostMovement.cs" />
+    <Compile Include="Assets\Scripts\PathFinding.cs" />
+    <Compile Include="Assets\Scripts\Creator.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Testing.cs" />
-    <Compile Include="Assets\Scripts\Creator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
