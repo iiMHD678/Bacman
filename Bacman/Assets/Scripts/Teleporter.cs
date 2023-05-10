@@ -21,12 +21,12 @@ public class Teleporter : MonoBehaviour
         if (this.name == "TeleporterLeft")
         {
             Debug.Log("left");
-            col.gameObject.transform.position = new Vector2(19.5f, 11.5f);
+            col.gameObject.transform.position = new Vector2(19.5f, -10.5f);
         }
         if (this.name == "TeleporterRight")
         {
             Debug.Log("right");
-            col.gameObject.transform.position = new Vector2(-0.5f, 11.5f);
+            col.gameObject.transform.position = new Vector2(-0.5f, -10.5f);
         }
     }
 }

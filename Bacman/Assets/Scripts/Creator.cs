@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Creator : MonoBehaviour
 {
-    protected Entities player;
+
     // Start is called before the first frame update
     void Start()
     {

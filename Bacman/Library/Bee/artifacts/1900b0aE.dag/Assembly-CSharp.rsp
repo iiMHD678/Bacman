@@ -343,7 +343,6 @@
 "Assets/Scripts/PathFinding.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Teleporter.cs"
-"Assets/Scripts/temp trash i guess/Entities.cs"
 "Assets/Scripts/Testing.cs"
 -langversion:8.0
 
